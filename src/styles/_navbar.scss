@@ -1,6 +1,7 @@
+@import 'globalstyles';
 .NavBar {
   height: 100vh;
-  color: #ededed;
+  color: var(--color-white);
 
   nav {
     height: 100%;
@@ -10,7 +11,7 @@
     align-items: center;
 
     .avatar {
-      background: #736d77;
+      // background: #736d77;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -21,7 +22,7 @@
         width: 80%;
         border-radius: 50%;
         overflow: hidden;
-        border: 4px solid #b5a9b3;
+        border: 4px solid var(--color-secondary);
         // box-shadow:0 0 0 4px rgba(255,255,255,0.2);
       }
     }
@@ -49,13 +50,13 @@
             left: 0px;
             top: 0px;
             content: '';
-            background-color: #dbc1c2;
+            background-color: var(--color-secondary);
             opacity: 0.3;
             transition: all 0.3s;
             // transform: scale(0);
           }
           &:hover {
-            color: #fdf2f3;
+            color: var(--color-white);
           }
           &:hover::before {
             width: 100%;
@@ -63,8 +64,8 @@
           }
         }
         .active {
-          color: #736d77;
-          background-color: #dbc1c2;
+          color: var(--background-color);
+          background-color: var(--color-secondary);
         }
       }
     }

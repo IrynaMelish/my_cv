@@ -1,3 +1,4 @@
+@import 'globalstyles';
 .ContactPage {
   .container {
     margin: 4rem 0;
@@ -29,7 +30,7 @@
     .map-section {
       width: 97%;
       padding: 1rem;
-      background-color: #736d77;
+      background-color: var(--background-color);
       iframe {
         width: 100%;
         height: 100%;
@@ -49,7 +50,7 @@
     width: 100%;
     height: 10rem;
     // background-color: #525161;
-    background-color: #736d77;
+    background-color: var(--background-color);
     color: #ededed;
     padding-right: 2rem;
   }

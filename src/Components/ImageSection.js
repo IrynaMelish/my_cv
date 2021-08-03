@@ -10,9 +10,14 @@ function ImageSection() {
                 <img src={about} alt="" />
             </div>
             <div className="about-info">
-                <h4>I am<span>Lorem</span></h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis dignissimos ab nulla nemo, fugiat nihil unde quasi pariatur dicta repellendus atque. Laboriosam illo, dolores quaerat amet ea temporibus exercitationem id.</p>
+                <h4>bio</h4>
+                <p>My name is Iryna Melish. I'm from Ternopil, Ukraine.</p>
 
+<p>My love of beautiful websites and curiosity made me discover and explore Web development which naturally, led to my great interest in web development.
+
+ I finally fully commited to learning front-end dev. Day by day I've been getting to know HTML, CSS and JavaScript. Then came sass, git and some React. Now, I'm devoted to building quality and beautiful websites.</p>
+
+<p>I created this website to present my current skills , which could possibly help me find my first job as a junior front-end developer.</p>
 
             </div>
             
