@@ -10,7 +10,7 @@ function HomePage() {
             
 
              <header className="intro">
-                 <h1>Hi! I am <span>Iryna Melish</span></h1>
+                 <h1>Hi, I am <span>Iryna Melish</span></h1>
                  <p>FrontEnd Web Developer</p>
                  <div className="icons">
                  <a href="https://www.facebook.com/people/%D0%86%D1%80%D0%B0-%D0%9C%D0%B5%D0%BB%D1%96%D1%88/100006181216003/" className=" icon i-facebook">

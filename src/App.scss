@@ -1,3 +1,4 @@
+@import './styles/globalstyles';
 @import './styles/layout';
 @import './styles/navbar';
 @import './styles/home';
@@ -30,9 +31,7 @@ body {
   font-family: 'Varela', sans-serif;
   font-size: 1rem;
 }
-p {
-  text-indent: 20px; /* Отступ первой строки в пикселах */
-}
+
 // @media screen and (max-width: 411px) {
 //   font-size: 1.2rem;
 // }

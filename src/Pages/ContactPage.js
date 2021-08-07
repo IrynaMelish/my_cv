@@ -17,8 +17,8 @@ function ContactPage() {
             </div>
                 <div className="contact-section">
                     <ContactItem className="icon-item" icon={phone} text={'+380956333565'} title={'Phone'}/>
-                    <ContactItem className="icon-item" icon={email} text={'+380956333565'} title={'E-mail'}/>
-                    <ContactItem  className="icon-item" icon={location} text={'+380956333565'} title={'Address'}/>
+                    <ContactItem className="icon-item" icon={email} text={'Iryna.Melish.7@gmail.com'} title={'E-mail'}/>
+                    <ContactItem  className="icon-item" icon={location} text={'Te'} title={'Address'}/>
 
                 </div>
             

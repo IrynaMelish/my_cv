@@ -9,55 +9,44 @@
     position: fixed;
     // color: #b5a9b3;
     color: var(--color-secondary);
-    z-index: 11;
+    z-index: 10;
     transform-origin: left;
+    transition: all 0.3s ease;
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1200px) {
       transform: translateX(-100%);
       transition: all 0.4s ease-in-out;
       width: 30%;
+      @media screen and (max-width: 768px) {
+        width: 40%;
+      }
     }
-    @media screen and (max-width: 411px) {
-      transform: translateX(-100%);
-      transition: all 0.4s ease-in-out;
+    @media screen and (max-width: 480px) {
+      // transform: translateX(-100%);
+      // transition: all 0.4s ease-in-out;
       width: 50%;
     }
   }
   .nav-toggle {
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1200px) {
       transform: translateX(0);
       transition: all 0.4s ease-in-out;
       min-height: 100%;
       height: 100vh2;
     }
   }
-  .main-content {
-    position: relative;
-    width: 80%;
-    margin-left: 20%;
-    min-height: 100vh;
-    // background-image: url(../img/dots.svg);
-    display: grid;
-    @media screen and (max-width: 1000px) {
-      margin-left: 0;
-      width: 100%;
-    }
-    @media screen and (max-width: 1000px) {
-      width: 100%;
-      margin-left: 0;
-    }
-    .content {
-      margin: 5rem;
-    }
-  }
 }
 .hamburger {
   position: absolute;
   z-index: 5;
-  top: 10%;
-  right: 10%;
-  width: 4rem;
-  height: 4rem;
+  top: 5rem;
+  right: 5rem;
+  width: 50px;
+  height: 50px;
+  @media screen and (max-width: 768px) {
+    top: 3rem;
+    right: 3rem;
+  }
 
   display: none;
   &:hover {
@@ -76,7 +65,7 @@
     pointer-events: none;
     border-radius: 20px;
   }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
     display: block;
     display: flex;
     flex-direction: column;
@@ -87,7 +76,7 @@
 
 .active {
   span {
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1200px) {
       &:first-child {
         transform: rotate(40deg);
       }

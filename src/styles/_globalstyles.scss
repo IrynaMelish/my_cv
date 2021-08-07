@@ -4,3 +4,28 @@
   --color-secondary: #dbc1c2;
   --color-white: #ededed;
 }
+.App {
+  .main-content {
+    position: relative;
+    width: 80%;
+    margin-left: 20%;
+    min-height: 100vh;
+    // background-image: url(../img/dots.svg);
+    display: grid;
+    @media screen and (max-width: 1200px) {
+      margin-left: 0;
+      width: 100%;
+    }
+    // }
+    // @media screen and (max-width: 1000px) {
+    //   width: 100%;
+    //   margin-left: 0;
+    // }
+    .content {
+      margin: 5rem;
+      @media screen and (max-width: 768px) {
+        margin: 3rem;
+      }
+    }
+  }
+}

@@ -4,9 +4,15 @@
   justify-content: space-between;
   margin-top: 4rem;
   margin-bottom: 2rem;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 
   .img {
     width: 50%;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
 
     img {
       width: 100%;
@@ -19,13 +25,21 @@
     margin-left: 2rem;
     width: 50%;
     overflow: hidden;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 2rem;
+    }
     h4 {
       font-size: 2rem;
       text-transform: uppercase;
       color: var(--color-secondary);
+      margin-bottom: 1rem;
     }
     p {
       text-align: justify;
+
+      text-indent: 20px; /* Отступ первой строки в пикселах */
     }
   }
 }
@@ -36,4 +50,8 @@
   column-gap: 3rem;
   row-gap: 1rem;
   margin: 2rem 0;
+  @media screen and (max-width: 550px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 0;
+  }
 }
